@@ -1,0 +1,1 @@
+!function(){const e=document.querySelector(".header");window.onscroll=()=>{window.pageYOffset>50?e.classList.add("header_active"):e.classList.remove("header_active")}}();
