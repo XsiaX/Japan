@@ -39,8 +39,7 @@ if (window.innerWidth <= 768) {
     menuLinks[i].addEventListener('click', ()=> {
   menu.classList.remove('header__nav_active');
   document.querySelector("body").style.overflow="auto";
-
-    })
+    });
   }
 }
 }());
