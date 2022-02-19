@@ -25,19 +25,30 @@
 					<nav class="header__nav">
 						<ul class="header__list">
 							<li class="header__item">
-								<a href="#!" class="header__link">Articles</a>
+								<a href="#articles" class="header__link js-scroll">Articles</a>
 							</li>
 							<li class="header__item">
-								<a href="#!" class="header__link">Locations</a>
+								<a href="#locations" class="header__link js-scroll"
+									>Locations</a
+								>
 							</li>
 							<li class="header__item">
-								<a href="#!" class="header__link">Videos</a>
+								<a href="#videos" class="header__link js-scroll">Videos</a>
 							</li>
 							<li class="header__item">
-								<a href="#!" class="header__link">Sign in</a>
+								<a href="#sign-in" class="header__link js-scroll">Sign in</a>
 							</li>
 						</ul>
+						<div class="header__nav-close">
+							<span class="header__nav-close-line"></span>
+							<span class="header__nav-close-line"></span>
+						</div>
 					</nav>
+					<div class="header__burger burger">
+						<span class="burger__line burger__line_first"></span>
+						<span class="burger__line burger__line_second"></span>
+						<span class="burger__line burger__line_third"></span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -45,7 +56,7 @@
 
 		<!-- Intro start -->
 		<main class="main">
-			<section class="intro">
+			<section class="intro" id="sign-in">
 				<div class="wrapper">
 					<h1 class="intro__title">Discover Amazing places in Japan</h1>
 					<p class="intro__subtitle">
@@ -218,7 +229,7 @@
 			<!-- Places end -->
 
 			<!-- Tours start -->
-			<div class="tours">
+			<div class="tours" id="articles">
 				<div class="wrapper-full">
 					<!-- First tour start -->
 					<div class="tours__tour tour">
@@ -252,11 +263,11 @@
 								Jump off balcony, onto stranger's head. Chase ball of string
 								hide when guests come over. Being gorgeous with belly side up i
 								could pee on this if i had the energy but under the bed, for
-								attack the child, open the door,
+								attack the child, open the door.
 							</p>
 							<a href="#!" class="tour__more">VIEW NEIGHBORHOOD</a>
 						</div>
-						<div class="tour__pic">
+						<div class="tour__pic tour__pic_mob-first">
 							<img
 								src="../img/kyoto.jpg"
 								alt="Featured Neighborhood: Kyoto’s Arashiyama"
@@ -270,7 +281,7 @@
 			<!-- Tours end -->
 
 			<!-- Top start -->
-			<section class="top">
+			<section class="top" id="locations">
 				<div class="wrapper-full">
 					<h2 class="top_title section-title">Today top places to visit</h2>
 					<div class="top__cards">
@@ -440,7 +451,7 @@
 			</section>
 			<!-- Top end -->
 			<!-- Videos start -->
-			<div class="videos">
+			<div class="videos" id="videos">
 				<div class="videos__wrapper">
 					<div class="videos__item">
 						<iframe
