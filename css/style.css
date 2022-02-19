@@ -758,12 +758,12 @@ main .search-form__submit:hover, main .search-form__submit:focus, main .search-f
   font-size: 16px;
   line-height: 24px;
   color: #006dfe;
-  background: url(/img/svg/arrow.svg) no-repeat 95% center;
+  background: url(../img/svg/arrow.svg) no-repeat 95% center;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 .benefits__card-more:hover, .benefits__card-more:focus {
-  background: url(/img/svg/arrow.svg) no-repeat right center;
+  background: url(../img/svg/arrow.svg) no-repeat right center;
 }
 
 /* Benefits styles end */
@@ -792,7 +792,7 @@ main .search-form__submit:hover, main .search-form__submit:focus, main .search-f
   font-size: 16px;
   color: #006dfe;
   padding-right: 59px;
-  background: url(/img/svg/arrow.svg) no-repeat right center;
+  background: url(../img/svg/arrow.svg) no-repeat right center;
 }
 .places__view-all:hover {
   opacity: 0.65;
@@ -908,7 +908,7 @@ main .search-form__submit:hover, main .search-form__submit:focus, main .search-f
   font-size: 16px;
   color: #006dfe;
   padding-right: 59px;
-  background: url(/img/svg/arrow.svg) no-repeat right center;
+  background: url(../img/svg/arrow.svg) no-repeat right center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -979,7 +979,7 @@ main .search-form__submit:hover, main .search-form__submit:focus, main .search-f
   line-height: 24px;
   color: #fff;
   padding-right: 20px;
-  background: url(/img/svg/like.svg) no-repeat right center;
+  background: url(../img/svg/like.svg) no-repeat right center;
   margin-right: 14px;
 }
 .top__card-comments {
@@ -988,7 +988,7 @@ main .search-form__submit:hover, main .search-form__submit:focus, main .search-f
   line-height: 24px;
   color: #fff;
   padding-right: 23px;
-  background: url(/img/svg/comment.svg) no-repeat right center;
+  background: url(../img/svg/comment.svg) no-repeat right center;
 }
 .top__card-desk {
   margin-bottom: 31px;

@@ -290,11 +290,11 @@ main {
 		font-size: 16px;
 		line-height: 24px;
 		color: #006dfe;
-		background: url(/img/svg/arrow.svg) no-repeat 95% center;
+		background: url(../img/svg/arrow.svg) no-repeat 95% center;
 		transition: 0.4s;
 		&:hover,
 		&:focus {
-			background: url(/img/svg/arrow.svg) no-repeat right center;
+			background: url(../img/svg/arrow.svg) no-repeat right center;
 		}
 	}
 }
@@ -320,7 +320,7 @@ main {
 		font-size: 16px;
 		color: $title_underline;
 		padding-right: 59px;
-		background: url(/img/svg/arrow.svg) no-repeat right center;
+		background: url(../img/svg/arrow.svg) no-repeat right center;
 		&:hover {
 			opacity: 0.65;
 		}
@@ -439,7 +439,7 @@ main {
 		font-size: 16px;
 		color: $title_underline;
 		padding-right: 59px;
-		background: url(/img/svg/arrow.svg) no-repeat right center;
+		background: url(../img/svg/arrow.svg) no-repeat right center;
 		transition: 0.3s;
 		&:hover,
 		&:focus {
@@ -505,7 +505,7 @@ main {
 		line-height: 24px;
 		color: $white;
 		padding-right: 20px;
-		background: url(/img/svg/like.svg) no-repeat right center;
+		background: url(../img/svg/like.svg) no-repeat right center;
 		margin-right: 14px;
 	}
 
@@ -518,7 +518,7 @@ main {
 		line-height: 24px;
 		color: $white;
 		padding-right: 23px;
-		background: url(/img/svg/comment.svg) no-repeat right center;
+		background: url(../img/svg/comment.svg) no-repeat right center;
 	}
 
 	&__card-comments-value {
