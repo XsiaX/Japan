@@ -253,7 +253,7 @@ main {
 	&__cards {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-column-gap: 55px;
+		column-gap: 55px;
 		padding: 0 100px;
 	}
 
@@ -329,8 +329,8 @@ main {
 	&__cards {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
-		grid-column-gap: 10px;
-		grid-row-gap: 10px;
+		column-gap: 10px;
+		row-gap: 10px;
 	}
 	&__card {
 		position: relative;
@@ -404,7 +404,7 @@ main {
 	&__tour {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-column-gap: 108px;
+		column-gap: 108px;
 		align-items: center;
 	}
 }
@@ -468,8 +468,8 @@ main {
 	&__cards {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
-		grid-column-gap: 57px;
-		grid-row-gap: 57px;
+		column-gap: 57px;
+		row-gap: 57px;
 	}
 
 	&__card {
@@ -644,7 +644,7 @@ main {
 		margin-bottom: 75px;
 		&__cards {
 			padding: 0 15px;
-			grid-column-gap: 35px;
+			column-gap: 35px;
 		}
 		&__card {
 			margin-bottom: 60px;
@@ -668,7 +668,7 @@ main {
 	.tours {
 		padding-bottom: 50px;
 		&__tour {
-			grid-column-gap: 35px;
+			column-gap: 35px;
 		}
 	}
 	.tour {
@@ -684,8 +684,8 @@ main {
 	}
 	.top {
 		&__cards {
-			grid-column-gap: 25px;
-			grid-row-gap: 55px;
+			column-gap: 25px;
+			row-gap: 55px;
 		}
 		&__card {
 			// max-width: 386px;
