@@ -200,6 +200,11 @@ main {
 			margin-right: 60px;
 			font-weight: 500;
 			font-size: 18px;
+			&:focus {
+				&::placeholder {
+					opacity: 0;
+				}
+			}
 			&::placeholder {
 				font-weight: 500;
 				font-size: 18px;

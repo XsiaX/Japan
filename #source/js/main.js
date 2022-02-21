@@ -36,7 +36,7 @@ menuCloseItem.addEventListener('click', () => {
 });
 if (window.innerWidth <= 768) {
   for (let i = 0; i < menuLinks.length; i +=1) {
-    menuLinks[i].addEventListener('click', ()=> {
+    menuLinks[i].addEventListener('click', () => {
   menu.classList.remove('header__nav_active');
   document.querySelector("body").style.overflow="auto";
     });
